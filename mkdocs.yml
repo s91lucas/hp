@@ -1,0 +1,65 @@
+site_name: MILO
+
+nav: #Navegação de páginas
+  - Home: index.md
+  - Manual de usuário:
+    - manual_usuario/index.md
+    - Cadastrando produtos: manual_usuario/cadastrando-produtos.md
+    - Consultando produtos: manual_usuario/consulta.md
+    - Gerenciando rotas: manual_usuario/gerenciando-rotas.md
+    - Relatórios: manual_usuario/relatorios.md
+  - Manual de desenvolvedor:
+    - manual_dev/index.md
+  - Dúvidas frequentes: duvidas-frequentes.md
+#   - Contribuição: contribuicao.md
+  - Sobre: sobre.md
+
+theme:
+  palette:
+  # Palette toggle for light mode
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Modo noturno
+  # Palette toggle for dark mode
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Modo claro    
+  logo: img/logo.png
+  favicon: img/favicon.png
+  language: pt-BR
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - toc.integrate #pode conflitar com navigation.indexes ((checar))
+    - navigation.top
+    - navigation.path
+    
+extra_css:
+  - stylesheets/extra.css 
+
+markdown_extensions:
+  - pymdownx.tasklist # Lista de tarefas
+  - pymdownx.emoji # Emojis
+  - pymdownx.mark # Marcação de texto
+  - pymdownx.superfences # Blocos de código
+  - toc: # Tabela de conteúdo à direita
+      title: Índice
+  - attr_list # Grids
+  - md_in_html #^
+  - admonition
+  - pymdownx.details
+
+plugins:
+  - offline
+  - search
+
+copyright: SENAI Alagoas © 2025. Todos os direitos reservados.

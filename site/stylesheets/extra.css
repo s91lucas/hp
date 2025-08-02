@@ -1,0 +1,64 @@
+:root {
+  --md-primary-fg-color:   #004B8D; /* Cor principal */
+  --md-primary-bg-color:   #e3f2fd; /* Fundo da barra superior */
+  --md-accent-fg-color:    #F37335; /* Cor de destaque/acento */
+  --md-typeset-color:      #222222; /* Cor do texto */
+  --md-footer-bg-color:    #004B8D; /* Fundo do rodapé */
+  --md-footer-fg-color:    #ffffff; /* Texto do rodapé */
+  --md-code-bg-color:      #f3f3f3; /* Fundo dos blocos de código */
+  --md-code-fg-color:      #1a237e; /* Texto dos blocos de código */
+}
+
+/* Cor de fundo para o modo claro */
+body { background: #f5f9ff; }
+
+/* Cor de fundo para o modo escuro */
+body[data-md-color-scheme="slate"] {
+  background: #181818 !important; 
+  --md-typeset-color:    #f3f3f3; /* Cor do texto */
+  --md-accent-fg-color:  #004B8D; /* Cor de destaque/acento */
+  --md-primary-fg-color: #c62828; /* Fundo da header no dark */
+  --md-primary-bg-color: #f5f9ff; /* Texto/ícones da header no dark */
+}
+
+/* Fonte para títulos */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', Arial, sans-serif !important;
+}
+
+/* Fonte para o corpo do texto */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body, .md-typeset {
+  font-family: 'Open Sans', Verdana, sans-serif !important;
+}
+
+.md-header__option {
+  order: 2; /* Garante que a search fique no meio, entre logo e botões */
+}
+
+#custom-search input[type="search"] {
+  font-size: 1rem;
+}
+
+#custom-search button[type="submit"] {
+  font-size: 1rem;
+}
+
+.text-destaque {
+  color: #F37335;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.text-laranja {
+  color: #F37335;
+  font-weight: bold;
+}
+
+.grid {
+  border: 1px solid #004B8D;      /* Cor e espessura da borda */
+  box-shadow: 0 4px 16px rgba(0,0,0,0.10); /* Sombra opcional */
+}
