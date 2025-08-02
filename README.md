@@ -7,7 +7,7 @@
 - Material for MkDocs
 - pymdown-extensions
 
-Passo a passo de instalação e edição
+## Passo a passo de instalação
 
 ### 1. Clone o repositório
 ```bash
@@ -18,3 +18,17 @@ git clone <URL_DO_REPOSITORIO>
 ```bash
 pip install -r requirements.txt
 ```
+
+## Edição
+
+### Gerando páginas html
+```bash
+mkdocs build
+```
+
+### Visualização web
+```bash
+mkdocs serve
+```
+
+Para mais detalhes checar a documentação [Mkdocs](https://www.mkdocs.org/) e [Mkdocs Materials](https://squidfunk.github.io/mkdocs-material/).
