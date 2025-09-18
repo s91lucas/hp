@@ -4,17 +4,18 @@ nav: #Navegação de páginas
   - Home: index.md
   - Manual de usuário:
     - manual_usuario/index.md
-    - Cadastrando produtos: manual_usuario/cadastrando-produtos.md
-    - Consultando produtos: manual_usuario/consulta.md
-    - Gerenciando rotas: manual_usuario/gerenciando-rotas.md
-    - Relatórios: manual_usuario/relatorios.md
-  - Manual de desenvolvedor:
-    - manual_dev/index.md
+    - Estoques: manual_usuario/estoques.md
+    - Rotas de entrega: manual_usuario/rotas.md
+    - Relatórios e controle: manual_usuario/relatorios.md
+    - Segurança: manual_usuario/segurança.md
+#  - Manual de desenvolvedor:
+#    - manual_dev/index.md
   - Dúvidas frequentes: duvidas-frequentes.md
 #   - Contribuição: contribuicao.md
   - Sobre: sobre.md
 
 theme:
+  name: material
   palette:
   # Palette toggle for light mode
     - scheme: default
@@ -30,10 +31,9 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Modo claro    
-  logo: img/logo.png
+  logo: img/logo.png 
   favicon: img/favicon.png
   language: pt-BR
-  name: material
   features:
     - navigation.tabs
     - navigation.sections
@@ -42,7 +42,8 @@ theme:
     - toc.integrate #pode conflitar com navigation.indexes ((checar))
     - navigation.top
     - navigation.path
-    
+#   - navigation.footer
+
 extra_css:
   - stylesheets/extra.css 
 

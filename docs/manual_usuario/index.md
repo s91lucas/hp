@@ -19,66 +19,40 @@ Bem-vindo à Central de Ajuda do MILO. Aqui você encontrará informações úte
 ---
 <div class="grid cards" markdown>
 
--   [📦 __Cadastrando seus produtos__](cadastrando-produtos.md)
-    
-    --- 
-
-    [É fácil como parece!](cadastrando-produtos.md)
-
-</div>
-
-<div class="grid cards" markdown>
-    
--   [📦 __Consulte seu estoque__](cadastrando-produtos.md)
-
--   [📦 __Gerando relatórios__](cadastrando-produtos.md)
-
-</div>
-
-<div class="grid cards" markdown>
-
--   [🚚 __Gerencie suas rotas__](gerenciando-rotas.md)
+-   📦 <span class="text-laranja">__Estoques__</span>
 
     ---
-    [Faça suas rotas de entrega com MILO e saia na frente!](gerenciando-rotas.md)
+    [Cadastrando produtos](estoques.md)
+
+    [Consultando estoque](estoques.md#editando-itens-no-estoque)
+
+    [Editando itens no estoque](estoques.md)
+
+
+-   🚚 <span class="text-laranja">__Rotas__</span>
+
+    ---
+    [Criando rotas de entregas](rotas.md)
+
+    [Gerenciando rotas](rotas.md)
+
+
+-   📃 <span class="text-laranja">__Relatórios e Controle__</span>
+
+    ---
+    [Relatórios MILO](relatorios.md)
+
+    [Notificações do Sistema](relatorios.md#notificacoes-do-sistema)
+
+
+-   🔐 <span class="text-laranja">__Conta e segurança__</span>
+
+    ---
+    [Redefinindo a senha](segurança.md)
+
+    [Termos de uso](../sobre.md)
+
 </div>
-
-__.__
-📌 O que é o MILO?
-
-🛠️ Como usar o sistema?
-
-🔐 Problemas de login ou acesso
-
-📦 Dúvidas sobre estoque
-
-🚚 Dúvidas sobre rotas e entregas
-
-💬 Contato com o suporte
-
----
-## Dúvidas frequentes
-
-??? info "📦 Dúvidas sobre estoque"
-    - Como cadastrar um novo produto?
-    - Como editar informações do estoque?
-    - Como excluir um item?
-
-??? info "🚚 Dúvidas sobre rotas e entregas"
-    - Como criar uma nova rota?
-    - Como visualizar entregas pendentes?
-    - Como editar uma rota existente?
-
-??? info "🔐 Problemas de login ou acesso"
-    - Esqueci minha senha, e agora?
-    - Não consigo acessar minha conta.
-    - Como alterar meu e-mail?
-
-??? info "💬 Contato com o suporte"
-    - Como falar com o suporte?
-    - Qual o horário de atendimento?
-
-
 
 
 

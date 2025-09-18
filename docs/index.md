@@ -1,53 +1,71 @@
 ---
 hide:
-  - navigation #Oculta navegação
-  - toc #Oculta índice
+  - navigation
+  - toc
 ---
 
-# MILO
+<h1 class="titulo-centralizado">Central de ajuda MILO</h1>
 
 <p align="center">
-  <img src="img/homebanner.png" alt="Logo" width=""/>
+  <img src="img/homebanner.png" class="only-light" alt="Logo" width=""/>
 </p>
----
 
-**MILO** é um sistema de gestão de estoques desenvolvido para atender às necessidades de **micro e pequenas empresas** como padarias, mercadinhos, pequenas lojas e comércios locais.  
-O projeto é uma iniciativa em **colaboração com o [SENAI de Alagoas](https://al.senai.br/para-empresas/)**, com foco na **simplicidade, eficiência e organização** dos processos de controle de estoque.
+<p align="center">
+  <img src="img/homebanner2.png" class="only-dark" alt="Logo" width=""/>
+</p>
 
----
+***
 
-## 💡Comece aqui
+<span class="text-laranja">MILO</span> é um sistema inteligente de logística com foco em estoques, geração de rotas e relatórios estratégicos, visando atender as necessidades de empresas locais. O projeto é uma iniciativa em **colaboração com o [SENAI de Alagoas](https://al.senai.br/para-empresas/)**, com foco na **simplicidade, eficiência e organização** dos processos de controle de logística.
 
-Se você for um **usuário**, comece pelo [Guia do Usuário](manual_usuario/index.md).  
-Se você for um **desenvolvedor**, veja os [Requisitos Técnicos](manual_dev/index.md).
+Se você é novo no MILO, comece no [Guia de uso](manual_usuario/index.md).
 
----
+***
+<h2 class="titulo-centralizado">Navegue</h2>
 
-## 📌 Objetivo do Milo
+<div class="grid cards" markdown>
 
-O Milo tem como principal objetivo oferecer uma solução **prática e acessível** para o controle de estoques, possibilitando que pequenos empreendedores:
+-   [<h2 class="titulo-centralizado">Guia de uso</h2>](manual_usuario/index.md) 
 
-- Registrem entradas e saídas de produtos de forma simples e rápida.
-- Acompanhem o nível de estoque em tempo real.
-- Recebam alertas sobre produtos com estoque baixo.
-- Tenham acesso a gráficos e relatórios básicos para melhor tomada de decisão.
+    ---
 
----
+    [<p align="center"><img src="img/container-guia.svg" alt="Logo" width="300"/></p>](manual_usuario/index.md)
 
-## 📚 O que você encontrará nesta documentação
 
-- 📄 Requisitos e funcionalidades do sistema  
-- 💻 Detalhes técnicos para desenvolvedores  
-- 👨‍💼 Guia do usuário para uso diário  
-- 📦 Casos de uso práticos e exemplos  
-- 📈 Explicações sobre relatórios e métricas disponíveis
+-   [<h2 class="titulo-centralizado">Estoques</h2>](manual_usuario/estoques.md)
 
----
+    ---
 
-## 🔒 Distribuição (??)
+    [<p align="center"><img src="img/container-estoque.svg" alt="Logo" width="300"/></p>](manual_usuario/estoques.md)
 
-Este software não é de código aberto e **não será distribuído livremente**. A sua utilização será limitada a empresas parceiras do projeto e/ou indicadas pelo SENAI, conforme critérios definidos pela instituição. 
 
----
+-   [<h2 class="titulo-centralizado">Rotas</h2>](manual_usuario/rotas.md)
 
-*continua*
+    ---
+
+    [<p align="center"><img src="img/container-rota.svg" alt="Logo" width="300"/></p>](manual_usuario/rotas.md)
+
+
+
+-   [<h2 class="titulo-centralizado">Relatórios MILO</h2>](manual_usuario/relatorios.md)
+
+    ---
+
+    [<p align="center"><img src="img/container-relatorio.svg" alt="Logo" width="300"/></p>](manual_usuario/relatorios.md)
+
+
+-   [<h2 class="titulo-centralizado">Dúvidas Frequentes</h2>](duvidas-frequentes.md)
+
+    ---
+
+    [<p align="center"><img src="img/container-duvida.svg" alt="Logo" width="300"/></p>](duvidas-frequentes.md)
+
+
+-   [<h2 class="titulo-centralizado">Conta, Segurança e Privacidade</h2>](manual_usuario/segurança.md)
+
+    ---
+
+    [<p align="center"><img src="img/container-segurança.svg" alt="Logo" width="300"/></p>](manual_usuario/segurança.md)
+
+
+</div>
