@@ -3,7 +3,7 @@
 
 ## Gerar rota automaticamente
 
-__1.__ Acesse o menu <span class="text-laranja">Vendas</span> e siga para <span class="text-laranja">Entregas</span>.
+__1.__ Acesse o menu <span class="text-laranja">Vendas</span> e siga para <span class="text-laranja">Gerar Rota</span>.
 
 __2.__ Preencha os campos.
 
@@ -26,7 +26,7 @@ Esses dados são relevantes para calcular os custos do transposte, fazendo seus 
 
 ## Consultando rotas
 
-__1.__ Acesse o menu <span class="text-laranja">Rotas</span>.
+__1.__ Acesse o menu <span class="text-laranja">Vendas</span>.
 
 __2.__ Selecione o submenu <span class="text-laranja">Consultar rotas</span>.
 
