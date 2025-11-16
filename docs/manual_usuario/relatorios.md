@@ -7,7 +7,7 @@
   <img src="img/relatorioexemplo.png" alt="Logo" width=""/>
 </p>
 
-**Receba acesso a:**
+**Com os relatórios MILO, você recebe acesso a:**
 
 <div class="grid cards" markdown>
 
