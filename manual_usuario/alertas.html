@@ -9,10 +9,10 @@
       
       
       
-        <link rel="prev" href="index.html">
+        <link rel="prev" href="relatorios.html">
       
       
-        <link rel="next" href="rotas.html">
+        <link rel="next" href="seguran%C3%A7a.html">
       
       
       <link rel="icon" href="../img/favicon.png">
@@ -20,7 +20,7 @@
     
     
       
-        <title>Cadastro de Vendas - MILO</title>
+        <title>Alertas do Sistema - MILO</title>
       
     
     
@@ -86,7 +86,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#cadastro-de-vendas" class="md-skip">
+        <a href="#alertas-do-sistema" class="md-skip">
           Pular para conteúdo
         </a>
       
@@ -119,7 +119,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Cadastro de Vendas
+              Alertas do Sistema
             
           </span>
         </div>
@@ -405,8 +405,6 @@
                 
   
   
-    
-  
   
   
     
@@ -428,11 +426,13 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" checked>
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_2" >
         
           
           <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="">
@@ -448,7 +448,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2_2">
             <span class="md-nav__icon md-icon"></span>
             Vendas e Rotas
@@ -459,19 +459,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="vendas.html" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="vendas.html" class="md-nav__link">
         
   
   
@@ -482,7 +473,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -656,8 +646,10 @@
                 
   
   
+    
   
   
+  
     
     
       
@@ -677,13 +669,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_4" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4" checked>
         
           
           <label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="">
@@ -699,7 +689,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2_4">
             <span class="md-nav__icon md-icon"></span>
             Relatórios e Controle
@@ -733,10 +723,19 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="alertas.html" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="alertas.html" class="md-nav__link md-nav__link--active">
         
   
   
@@ -747,6 +746,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -913,20 +913,15 @@
 
 
 
-<h1 id="cadastro-de-vendas">Cadastro de Vendas</h1>
+<h1 id="alertas-do-sistema">Alertas do Sistema</h1>
 <hr />
-<p><strong>1.</strong> Acesse o menu <span class="text-laranja">Vendas</span> e siga para <span class="text-laranja">Cadastro de vendas</span>.</p>
-<p><strong>2.</strong> Selecione os itens e quantidades a serem vendidas.</p>
-<p><strong>3.</strong> Finalize a operação selecionando <span class="text-laranja">Criar venda</span>.</p>
-<details class="tip" open="open">
-<summary>Dica</summary>
 <ul>
-<li>MILO conta com uma opção para realizar vendas com preços variáveis.
-<p align="center"><img src="img/imglo.png"/></p></li>
-<li>Dessa forma, descontos e preços avulsos podem ser aplicados sem precisar editar o valor de todos os itens em estoque.</li>
+<li>Os alertas podem ser acompanhados na tela inicial do sistema. Eles incluem:<ul>
+<li><span class="text-laranja">Produtos vencidos</span> , ou próximos a data de vencimento.</li>
+<li>Itens abaixo do valor predefinido para o <span class="text-laranja">estoque mínimo</span>  ou próximo do valor.</li>
 </ul>
-</details>
-<p>Obs: A venda só será considerada <span class="text-laranja">Finalizada</span> quando a caixinha "Finalizar venda automaticamente" estiver marcada, caso contrário, a venda será considerada pendente, até ser finalizada pelo usuário.</p>
+</li>
+</ul>
 
 
 
