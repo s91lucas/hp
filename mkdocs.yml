@@ -2,17 +2,25 @@ site_name: MILO
 
 nav: #Navegação de páginas
   - Home: index.md
-  - Manual de usuário:
+  - Manual de Usuário:
     - manual_usuario/index.md
-    - Estoques: manual_usuario/estoques.md
-    - Rotas de entrega: manual_usuario/rotas.md
-    - Relatórios e controle: manual_usuario/relatorios.md
-    - Segurança: manual_usuario/segurança.md
-#  - Manual de desenvolvedor:
-#    - manual_dev/index.md
-  - Dúvidas frequentes: duvidas-frequentes.md
-#   - Contribuição: contribuicao.md
-  - Sobre: sobre.md
+    - Vendas e Rotas:
+      - manual_usuario/vendas.md
+      - manual_usuario/rotas.md
+    - Estoque e Produtos: 
+      - Cadastrando Produtos: manual_usuario/estoques.md
+      - Gerenciando Estoque: manual_usuario/gerenciando-estoque.md
+      - Fornecedores: manual_usuario/fornecedores.md
+    - Relatórios e Controle:
+      - manual_usuario/relatorios.md
+      - manual_usuario/alertas.md
+    - Conta e segurança:
+       - Redefinindo a senha: manual_usuario/segurança.md
+       - Perfil de Usuário: manual_usuario/perfil.md
+
+
+  - Dúvidas Frequentes: duvidas-frequentes.md
+
 
 theme:
   name: material
@@ -62,5 +70,24 @@ markdown_extensions:
 plugins:
   - offline
   - search
+
+extra:
+  generator: false
+  analytics:
+    provider: google
+    property: G-XXXXXXXXXX
+    feedback:
+      title: Essa página foi útil?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: Essa página foi útil
+          data: 1
+          note: >-
+            Obrigado pelo feedback!
+        - icon: material/emoticon-sad-outline
+          name: Essa página poderia melhorar
+          data: 0
+          note: >- 
+            Obrigado pelo feedback!
 
 copyright: SENAI Alagoas © 2025. Todos os direitos reservados.

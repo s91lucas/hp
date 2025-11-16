@@ -17,7 +17,7 @@ body[data-md-color-scheme="slate"] {
   background: #181818 !important; 
   --md-typeset-color:    #f3f3f3; /* Cor do texto */
   --md-accent-fg-color:  #004B8D; /* Cor de destaque/acento */
-  --md-primary-fg-color: #c62828; /* Fundo da header no dark */
+  --md-primary-fg-color: #c04b4b; /* Fundo da header no dark */
   --md-primary-bg-color: #f5f9ff; /* Texto/ícones da header no dark */
 }
 
@@ -58,7 +58,95 @@ body, .md-typeset {
   font-weight: bold;
 }
 
+.text-azul {
+  color: #1f619b;
+  font-weight: bold;
+}
+
 .grid {
   border: 1px solid #004B8D;      /* Cor e espessura da borda */
   box-shadow: 0 4px 16px rgba(0,0,0,0.10); /* Sombra opcional */
+}
+
+.titulo-centralizado {
+  text-align: center;
+}
+
+/* Mostra só no modo claro */
+.only-light {
+  display: block;
+}
+body[data-md-color-scheme="slate"] .only-light {
+  display: none !important;
+}
+
+/* Mostra só no modo escuro */
+.only-dark {
+  display: none;
+}
+body[data-md-color-scheme="slate"] .only-dark {
+  display: block !important;
+}
+
+/* Testes */
+    .md-typeset .grid.cards > ul > li {
+        border: 2px solid var(--md-primary-fg-color); /* Example border color */
+        border-radius: 16px; /* Use theme's base border-radius */
+    }
+
+    /* Optional: Add a hover effect */
+    .md-typeset .grid.cards > ul > li:hover {
+        box-shadow: 0 0 0.5rem #ffffff; /* Example subtle shadow on hover */
+    }
+
+.md-typeset .grid.cards {
+  border: none !important; /* Remove a borda do contêiner do grid */
+  box-shadow: none !important; /* Remove a sombra do contêiner */
+}
+
+  .md-typeset .grid.cards > ul > li {
+  background-color: #F4F5FE; /* Altera a cor de fundo para um cinza claro */
+  padding: 16px; /* Adiciona um preenchimento interno para o conteúdo */
+}
+
+:root {
+  /* cores modo claro */
+  --grid-card-bg:    #ffffff;
+  --grid-card-fg:    #222222;
+  --grid-card-border: #004B8D;
+  --grid-card-hover: #f5f9ff;
+}
+
+/* cores modo escuro */
+body[data-md-color-scheme="slate"] {
+  --grid-card-bg:    #1f1f1f;
+  --grid-card-fg:    #eaeaea;
+  --grid-card-border: #F37335;
+  --grid-card-hover: #232323;
+}
+
+/* DEBUG / override: borda e fundo bem visíveis para confirmar aplicação */
+.md-typeset .grid.cards > ul > li,
+.md-typeset .grid.cards > ul > li > a,
+.md-typeset .grid.cards > ul > li > div {
+  background: #f5f4fe !important;    /* amarelo claro visível */
+  border: 1px solid #004B8D !important; /* borda vermelha forte */
+  color: #000 !important;
+  border-radius: 12px !important;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.12) !important;
+}
+
+/* Modo escuro: cores alternativas */
+body[data-md-color-scheme="slate"] .md-typeset .grid.cards > ul > li,
+body[data-md-color-scheme="slate"] .md-typeset .grid.cards > ul > li > a,
+body[data-md-color-scheme="slate"] .md-typeset .grid.cards > ul > li > div {
+  background: #1f1f1f !important;
+  border: 1px solid #c04b4b !important;
+  color: #eee !important;
+}
+
+/* Se você usa card-link */
+.grid .card-link > div {
+  background: var(--grid-card-bg) !important;
+  border: 2px solid var(--grid-card-border) !important;
 }

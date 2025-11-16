@@ -1,15 +1,54 @@
+# Relatórios MILO
 
+<h6>MILO gera relatórios periódicos automáticos que ajudam o seu negócio a <span class="text-laranja">voar</span>.</h6>
 ---
-## Relatórios MILO
 
-MILO gera <span class="text-laranja">relatórios periódicos</span> automáticos que podem ser acompanhados no menu <span class="text-laranja">Relatórios</span>. Ainda no mesmo menu, você pode ajustar a frequência em que os relatórios são gerados.
+<p align="center">
+  <img src="img/relatorioexemplo.png" alt="Logo" width=""/>
+</p>
 
-## Notificações do sistema
+**Receba acesso a:**
 
-Por padrão, MILO irá notificar o usuário a cada novo relatório gerado através do email ou número cadastrado no perfil. Caso deseje <span class="text-laranja">alterar</span> o método de notificação ou <span class="text-laranja">desativar</span> a funcionalidade, siga as seguintes etapas:
+<div class="grid cards" markdown>
 
-__1.__ Acesse o menu <span class="text-laranja">Configurações</span>.
+-   __Resumo Executivo__
 
-__2.__ Selecione o submenu <span class="text-laranja">Notificações</span>.
+    ---
+    - Receba as Métricas principais do período:
+      * Total de saídas, entradas, número de rotas, vendas, e receita total.
 
-__3.__ Faça as alterações e clique em salvar.
+-   __Análise de Produtos__
+
+    ---
+
+    - Top entradas, saídas, mais e menos vendidos
+    * Te ajuda a definir estratégias para cada produto, como investir, manter, colher ou abandonar um item do portfólio. 
+      
+-   __Análise de Rotas__
+
+    ---
+
+    - Descubra o seu Top bairros mais visitados, produtos mais e menos enviados.
+    
+
+-   __Detalhamento de Rotas__
+
+    ---
+
+    - Tabela completa com custos, vendas, lucros e destinos de entrega.
+
+-   __Detalhamento de Vendas__
+
+    ---
+
+    - Lista todas as suas vendas do período destacando a modalidade de venda.
+
+</div>
+
+**Como acessar:**
+
+__1.__ Na tela inicial de MILO, clique no botão <span class="text-laranja">Gráficos e Relatórios</span>.
+
+__2.__ Defina intervalo desejado para geração.
+
+__3.__ Aperte o botão <span class="text-laranja">Gerar Relatório</span>.

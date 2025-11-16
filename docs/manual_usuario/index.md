@@ -1,4 +1,9 @@
-# Manual de usuário
+---
+hide:
+  - feedback
+---
+
+# Manual de Usuário
 ---
 
 <p align="center">
@@ -19,38 +24,37 @@ Bem-vindo à Central de Ajuda do MILO. Aqui você encontrará informações úte
 ---
 <div class="grid cards" markdown>
 
+-   🚚 <span class="text-laranja">__Vendas e Rotas__</span>
+
+    ---
+    [Cadastro de Vendas](vendas.md)
+
+    [Rotas e Entregas](rotas.md)
+
+
 -   📦 <span class="text-laranja">__Estoques__</span>
 
     ---
-    [Cadastrando produtos](estoques.md)
+    [Cadastrando Produtos](estoques.md)
 
-    [Consultando estoque](estoques.md#editando-itens-no-estoque)
+    [Gerenciando Estoque](gerenciando-estoque.md)
 
-    [Editando itens no estoque](estoques.md)
-
-
--   🚚 <span class="text-laranja">__Rotas__</span>
-
-    ---
-    [Criando rotas de entregas](rotas.md)
-
-    [Gerenciando rotas](rotas.md)
-
+    [Fornecedores](fornecedores.md)
 
 -   📃 <span class="text-laranja">__Relatórios e Controle__</span>
 
     ---
     [Relatórios MILO](relatorios.md)
 
-    [Notificações do Sistema](relatorios.md#notificacoes-do-sistema)
+    [Alertas do Sistema](alertas.md)
 
 
 -   🔐 <span class="text-laranja">__Conta e segurança__</span>
 
     ---
-    [Redefinindo a senha](segurança.md)
+    [Redefinindo a Senha](segurança.md)
 
-    [Termos de uso](../sobre.md)
+    [Perfil de Usuário](perfil.md)
 
 </div>
 

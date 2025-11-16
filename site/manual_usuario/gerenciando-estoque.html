@@ -9,10 +9,10 @@
       
       
       
-        <link rel="prev" href="fornecedores.html">
+        <link rel="prev" href="estoques.html">
       
       
-        <link rel="next" href="alertas.html">
+        <link rel="next" href="fornecedores.html">
       
       
       <link rel="icon" href="../img/favicon.png">
@@ -20,7 +20,7 @@
     
     
       
-        <title>Relatórios MILO - MILO</title>
+        <title>Gerenciando Estoque - MILO</title>
       
     
     
@@ -86,7 +86,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#relatorios-milo" class="md-skip">
+        <a href="#gerenciando-estoque" class="md-skip">
           Pular para conteúdo
         </a>
       
@@ -119,7 +119,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Relatórios MILO
+              Gerenciando Estoque
             
           </span>
         </div>
@@ -513,8 +513,10 @@
                 
   
   
+    
   
   
+  
     
     
       
@@ -536,13 +538,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" checked>
         
           
           <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="">
@@ -558,7 +558,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2_3">
             <span class="md-nav__icon md-icon"></span>
             Estoque e Produtos
@@ -592,10 +592,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="gerenciando-estoque.html" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Gerenciando Estoque
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="gerenciando-estoque.html" class="md-nav__link md-nav__link--active">
         
   
   
@@ -606,6 +628,46 @@
   
 
       </a>
+      
+        
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#categorias" class="md-nav__link">
+    <span class="md-ellipsis">
+      Categorias
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#editando-itens-no-estoque" class="md-nav__link">
+    <span class="md-ellipsis">
+      Editando itens no estoque
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -646,8 +708,6 @@
                 
   
   
-    
-  
   
   
     
@@ -669,11 +729,13 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4" checked>
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_4" >
         
           
           <label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="">
@@ -689,7 +751,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2_4">
             <span class="md-nav__icon md-icon"></span>
             Relatórios e Controle
@@ -700,19 +762,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="relatorios.html" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="relatorios.html" class="md-nav__link">
         
   
   
@@ -723,7 +776,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -913,59 +965,32 @@
 
 
 
-<h1 id="relatorios-milo">Relatórios MILO</h1>
-<h6>MILO gera relatórios periódicos automáticos que ajudam o seu negócio a <span class="text-laranja">voar</span>.</h6>
+<h1 id="gerenciando-estoque">Gerenciando Estoque</h1>
+<h6>Atualize seu estoque quantas vezes forem necessárias!</h6>
 <hr />
-<p align="center">
-  <img src="img/relatorioexemplo.png" alt="Logo" width=""/>
-</p>
-
-<p><strong>Receba acesso a:</strong></p>
-<div class="grid cards">
+<h2 id="categorias">Categorias</h2>
+<p>Organize os itens do seu estoque em categorias personalizadas. Saiba como encontrá-las:</p>
+<p><strong>1.</strong> Acesse o menu <span class="text-laranja">Configurações</span> e siga para <span class="text-laranja">Categorias</span>.</p>
+<p><strong>2.</strong> Adicione as categorias de produtos que melhor atendem o seu negócio. </p>
+<p><strong>3.</strong> Salve as alterações ao término das mudanças.</p>
+<details class="tip" open="open">
+<summary>Dica</summary>
 <ul>
-<li>
-<p><strong>Resumo Executivo</strong></p>
-<hr />
+<li>Produtos já cadastrados podem ser editados a qualquer momento no menu <span class="text-laranja">Estoque</span>.</li>
+</ul>
+</details>
+<details class="tip" open="open">
+<summary>Dica</summary>
 <ul>
-<li>Receba as Métricas principais do período:</li>
-<li>Total de saídas, entradas, número de rotas, vendas, e receita total.</li>
+<li>Categorias não existentes são criadas automaticamente quando inseridas no cadastro de produtos via planilhas.</li>
 </ul>
-</li>
-<li>
-<p><strong>Análise de Produtos</strong></p>
-<hr />
-<ul>
-<li>Top entradas, saídas, mais e menos vendidos</li>
-<li>Te ajuda a definir estratégias para cada produto, como investir, manter, colher ou abandonar um item do portfólio. </li>
-</ul>
-</li>
-<li>
-<p><strong>Análise de Rotas</strong></p>
-<hr />
-<ul>
-<li>Descubra o seu Top bairros mais visitados, produtos mais e menos enviados.</li>
-</ul>
-</li>
-<li>
-<p><strong>Detalhamento de Rotas</strong></p>
-<hr />
-<ul>
-<li>Tabela completa com custos, vendas, lucros e destinos de entrega.</li>
-</ul>
-</li>
-<li>
-<p><strong>Detalhamento de Vendas</strong></p>
-<hr />
-<ul>
-<li>Lista todas as suas vendas do período destacando a modalidade de venda.</li>
-</ul>
-</li>
-</ul>
-</div>
-<p><strong>Como acessar:</strong></p>
-<p><strong>1.</strong> Na tela inicial de MILO, clique no botão <span class="text-laranja">Gráficos e Relatórios</span>.</p>
-<p><strong>2.</strong> Defina intervalo desejado para geração.</p>
-<p><strong>3.</strong> Aperte o botão <span class="text-laranja">Gerar Relatório</span>.</p>
+</details>
+<h2 id="editando-itens-no-estoque">Editando itens no estoque</h2>
+<p><strong>1.</strong> Acesse o menu <span class="text-laranja">Estoque</span>.</p>
+<p><strong>2.</strong> Selecione a opção <span class="text-laranja">Consultar Produtos</span> para acessar todos os itens cadastrados.</p>
+<p><strong>3.</strong> Pesquise e selecione o produto desejado.</p>
+<p><strong>4.</strong> Salve as alterações ao término das mudanças.</p>
+<p>Todas as mudanças podem ser acompanhadas no <span class="text-laranja">Histórico de Movimentação</span> na tela inicial.</p>
 
 
 
